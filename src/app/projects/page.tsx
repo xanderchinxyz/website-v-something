@@ -76,6 +76,38 @@ export default function Projects() {
             image: "/emg-eeg.jpg",
         },
         {
+            title: "4-bit Breadboard Computer Part 2",
+            description: `
+                The final custom 4-bit computer build from 1980's era TTL Integrated Circuits, coded in specific machine language. It executes 16 
+                lines of code, capable of loading, adding, subtracting, storing, and reading memory, as well as
+                a go-to command and conditional if zero commands.
+            `,
+            href: "https://youtu.be/fg3poC2dT2o",
+            tags: [
+                {color: "bg-color-1", tag: "Computer Architecture"},
+                {color: "bg-color-1", tag: "TTL Integrated Circuits"},
+                {color: "bg-color-1", tag: "Analog Circuits"},
+                {color: "bg-color-2", tag: "Custom Machine Code"},
+            ],
+            image: "/led-wall-2.jpg",
+        },
+        {
+            title: "4-bit Breadboard Computer Part 1",
+            description: `
+                The beginning of a 4-bit breadboard computer. The first part goes over the custom "Chumpanese" code to
+                program the computer, the adjustable clock circuit, and the counter circuit to keep track and execute the 
+                current instruction.
+            `,
+            href: "https://youtu.be/b5qDwCN9Q2c",
+            tags: [
+                {color: "bg-color-1", tag: "Computer Architecture"},
+                {color: "bg-color-1", tag: "TTL Integrated Circuits"},
+                {color: "bg-color-1", tag: "Analog Circuits"},
+                {color: "bg-color-2", tag: "Custom Machine Code"},
+            ],
+            image: "/led-wall-2.jpg",
+        },
+        {
             title: "IR Nixie Clock",
             description: `
                 A 4-digit nixie tube clock with alarm, timer, date, and temperature features controlled with an infrared remote. Programmed in C++ on a standalone ATmega328 IC. Designed a custom PCB in EAGLE and laser-cut acrylic in Adobe Illustrator.
@@ -87,6 +119,25 @@ export default function Projects() {
                 {color: "bg-color-1", tag: "Infrared"},
                 {color: "bg-color-1", tag: "THT Soldering"},
                 {color: "bg-color-2", tag: "C++"},
+                {color: "bg-color-3", tag: "PCB Design"},
+            ],
+            image: "/ir-nixie.jpg",
+        },
+        {
+            title: "LiDAR Measurement Device",
+            description: `
+                A device that measures distance and models the surrounding room using LiDAR, servo motors, and an ESP32 programmed in C++.
+                I also coded a Processing program in Java to display a 3D point cloud, perform measurements, and control the ESP32 with 
+                Bluetooth.
+            `,
+            href: "https://youtu.be/frzUmAhQT3E",
+            tags: [
+                {color: "bg-color-1", tag: "ESP32"},
+                {color: "bg-color-1", tag: "LiDAR"},
+                {color: "bg-color-1", tag: "Servo Motors"},
+                {color: "bg-color-2", tag: "C++"},
+                {color: "bg-color-2", tag: "Processing (Java)"},
+                {color: "bg-color-2", tag: "Bluetooth"},
                 {color: "bg-color-3", tag: "PCB Design"},
             ],
             image: "/ir-nixie.jpg",
